@@ -1,4 +1,4 @@
-num = int(input("Give me a number: "))
+num = int(input("Enter a number: "))
 num%=2
 if num == 0:
     print("Even")
