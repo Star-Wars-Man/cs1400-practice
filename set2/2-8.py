@@ -1,3 +1,4 @@
+# get input from user
 temperature = int(input("Enter the temperature in Fahrenheit: "))
 is_raining = False
 raining = input("Is it raining? (yes/no): ").lower()
@@ -8,6 +9,7 @@ windy = input("Is it windy? (yes/no): ").lower()
 if windy == "yes" or windy == "y":
     is_windy = True
 time_of_day = input("What time of day is it? (morning, afternoon, evening): ").lower()
+# determine what to wear
 if temperature < 50:
     if is_raining:
         print("heavy coat and umbrella")

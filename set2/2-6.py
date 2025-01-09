@@ -1,3 +1,4 @@
+# get information from user
 distance = float(input("Enter the distance to travel in miles: "))
 is_sunny = False
 sunny = input("Is it sunny? (yes/no): ").lower()
@@ -11,6 +12,7 @@ is_rush_hour = False
 rush_hour = input("Is it rush hour? (yes/no): ").lower()
 if rush_hour == "yes" or rush_hour == "y":
     is_rush_hour = True
+# determine the best mode of transportation
 if distance < 5:
     if is_sunny:
         print("Walk")
